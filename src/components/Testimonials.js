@@ -25,6 +25,25 @@ let testimonials = [
         avatar: require('@/img/avatars/mrperfectdefect.jpg').default,
       },
     },
+    {
+      content:
+        'Bought a few rows of lands in @BYOPills. I spoke to the team a few months ago & just watched from the sidelines. All I see them do is build. Would be dumb to not go hard on this.',
+      url: 'https://twitter.com/cagyjan1/status/1473025241110781955',
+      author: {
+        name: 'CAGY',
+        handle: '@cagyjan1',
+        avatar: require('@/img/avatars/cagy.jpg').default,
+      },
+    },
+    {
+      content: 'Community 🤝 Building 🤝 Team',
+      url: 'https://twitter.com/_kEBZ/status/1472348982441558019',
+      author: {
+        name: 'kEBZ.ΞTH',
+        handle: '@_kEBZ',
+        avatar: require('@/img/avatars/kebz.png').default,
+      },
+    },
   ],
   // Column 2
   [
@@ -45,6 +64,26 @@ let testimonials = [
         name: '0xSeba.crypto',
         handle: '@0xSeba',
         avatar: require('@/img/avatars/0xseba.jpg').default,
+      },
+    },
+    {
+      content:
+        'The 2022 and 2023 main new crypto will be $TRYP! Not launched yet, but soon! Prepare yourselves for @BYOPills’ in game currency!',
+      url: 'https://twitter.com/SKYCRYPTOBOOMER/status/1472572627826925572',
+      author: {
+        name: 'cryptoboomer.eth',
+        handle: '@SKYCRYPTOBOOMER',
+        avatar: require('@/img/avatars/cryptoboomer.jpg').default,
+      },
+    },
+    {
+      content:
+        'Today we made our first purchases for our early access vault. The Wizards are proud new land owners in the BYO Metaverse from @BYOPills.  Wizards will now reap the rewards for years to come from the future harvesting of our 10 land plots. LFG WIZARDS!',
+      url: 'https://twitter.com/WTCnft/status/1471800142105698304',
+      author: {
+        name: 'Wizard Treasure Collective',
+        handle: '@WTCnft',
+        avatar: require('@/img/avatars/wtc.jpg').default,
       },
     },
   ],
@@ -77,6 +116,15 @@ let testimonials = [
         name: 'Oliver Maroney',
         handle: '@OliverMaroney',
         avatar: require('@/img/avatars/olivermaroney.jpg').default,
+      },
+    },
+    {
+      content: 'Congrats to the @BYOPills team for selling out their BYOLand sale!!!',
+      url: 'https://twitter.com/flipdrago/status/1471654121207832578',
+      author: {
+        name: 'f//pdrago.eth',
+        handle: '@flipdrago',
+        avatar: require('@/img/avatars/flipdrago.jpg').default,
       },
     },
   ],
@@ -223,7 +271,7 @@ export function Testimonials() {
           )}
           onClick={() => setExpanded(!expanded)}
         >
-          {expanded ? 'Okay, I get the point' : 'Show more...'}
+          {expanded ? 'Okay, I get the message' : 'Show more...'}
         </button>
       </div>
     </section>
