@@ -55,7 +55,7 @@ export function Footer({ children, previous, next }) {
               Copyright &copy; {new Date().getFullYear()} TBA
             </a>
           </Link>
-          <p className="sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200">
+          <p className="sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-500/30">
             <Link href="https://twitter.com/0xDeveloperEth">
               <a className="text-gray-400 hover:text-gray-100">
                 Made with{' '}
