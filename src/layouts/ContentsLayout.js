@@ -193,7 +193,7 @@ export function ContentsLayout({ children, meta, classes, tableOfContents, secti
 
       <Footer previous={prev} next={next}>
         <Link
-          href={`https://github.com/0xdevelopereth/byodocs/edit/test/src/pages${router.pathname}.mdx`}
+          href={`https://github.com/0xdevelopereth/byodocs/edit/master/src/pages${router.pathname}.mdx`}
         >
           <a className="text-gray-400 hover:text-gray-100">Edit this page on GitHub</a>
         </Link>
