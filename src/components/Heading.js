@@ -66,7 +66,7 @@ export function Heading({
         </a>
       )}
       {number && (
-        <span className="bg-cyan-100 w-8 h-8 inline-flex items-center justify-center rounded-full text-cyan-700 text-xl mr-3 flex-none">
+        <span className="w-8 h-8 inline-flex items-center justify-center rounded-full text-gray-100 text-xl mr-3 flex-none">
           {number}
         </span>
       )}
