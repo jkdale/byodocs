@@ -20,16 +20,16 @@ export function Logo(props) {
           y2="14.96"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FC4820" />
-          <stop offset="0.111111" stop-color="#FC5E1E" />
-          <stop offset="0.222222" stop-color="#FC701F" />
-          <stop offset="0.333333" stop-color="#FB8122" />
-          <stop offset="0.444444" stop-color="#FB9029" />
-          <stop offset="0.555556" stop-color="#FA9E33" />
-          <stop offset="0.666667" stop-color="#F9AC3E" />
-          <stop offset="0.777778" stop-color="#F8B94B" />
-          <stop offset="0.888889" stop-color="#F7C659" />
-          <stop offset="1" stop-color="#F6D268" />
+          <stop stopColor="#FC4820" />
+          <stop offset="0.111111" stopColor="#FC5E1E" />
+          <stop offset="0.222222" stopColor="#FC701F" />
+          <stop offset="0.333333" stopColor="#FB8122" />
+          <stop offset="0.444444" stopColor="#FB9029" />
+          <stop offset="0.555556" stopColor="#FA9E33" />
+          <stop offset="0.666667" stopColor="#F9AC3E" />
+          <stop offset="0.777778" stopColor="#F8B94B" />
+          <stop offset="0.888889" stopColor="#F7C659" />
+          <stop offset="1" stopColor="#F6D268" />
         </linearGradient>
       </defs>
     </svg>
