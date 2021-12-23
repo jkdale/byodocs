@@ -99,7 +99,7 @@ export function NavItems() {
   return (
     <>
       <li>
-        <Link href="/docs/introduction">
+        <Link href="/docs/welcome">
           <a className="text-gray-400 hover:text-gray-100">Docs</a>
         </Link>
       </li>

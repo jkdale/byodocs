@@ -6,5 +6,21 @@ const pages = createPageList(
 )
 
 export const documentationNav = {
-  'Getting Started': [pages['introduction'], pages['faq']],
+  'Getting Started': [pages['welcome'], pages['faq']],
+  'BYO Ecosystem': [
+    pages['byopills'],
+    pages['apostles'],
+    pages['byoland'],
+    pages['byocraft'],
+    pages['byokey'],
+    pages['byovape'],
+    pages['tryp'],
+  ],
+  Partnership: [
+    pages['galaxy-fight-club'],
+    pages['chibi-clash'],
+    pages['the-red-village'],
+    pages['legends-of-venari'],
+  ],
+  'Community & Support': [pages['contributing'], pages['support'], pages['policies']],
 }

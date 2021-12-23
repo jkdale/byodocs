@@ -217,7 +217,7 @@ function TopLevelNav() {
   return (
     <>
       <TopLevelLink
-        href="/docs/introduction"
+        href="/docs/welcome"
         isActive={pathname.startsWith('/docs')}
         className="mb-4"
         shadow="group-hover:bg-orange-900"
@@ -241,7 +241,7 @@ function TopLevelNav() {
         Documentation
       </TopLevelLink>
       <TopLevelLink
-        href="/docs/introduction"
+        href="/docs/welcome"
         className="mb-4"
         shadow="group-hover:bg-orange-900"
         icon={
@@ -262,7 +262,7 @@ function TopLevelNav() {
         Promo Videos
       </TopLevelLink>
       <TopLevelLink
-        href="/docs/introduction"
+        href="/docs/welcome"
         isActive={pathname === '/resources'}
         className="mb-4"
         shadow="group-hover:bg-orange-900"
