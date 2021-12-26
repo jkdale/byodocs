@@ -123,7 +123,7 @@ module.exports = {
               'scroll-margin-top': 'var(--scroll-mt)',
             },
             'ul > li': {
-              paddingLeft: '1.75em',
+              paddingLeft: '.5rem',
             },
             'ul > li::before': {
               width: '0.75em',
