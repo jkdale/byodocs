@@ -72,7 +72,7 @@ export function Heading({
       )}
       <span className={hidden ? 'sr-only' : undefined}>{children}</span>
       {badge && (
-        <span className="ml-3 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-4 bg-green-150 text-green-900">
+        <span className="ml-3 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium leading-4 bg-green-150 text-orange-400 bg-orange-700">
           {badge}
         </span>
       )}
