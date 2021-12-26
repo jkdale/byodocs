@@ -16,11 +16,12 @@ export const documentationNav = {
     pages['byocraft'],
     pages['tryp'],
   ],
-  'Community & Support': [pages['contribute'], pages['policies'], pages['support']],
   Partnership: [
+    pages['wonderquest-and-decentraland'],
     pages['galaxy-fight-club'],
-    pages['chibi-clash'],
+    pages['chibi-legends'],
     pages['the-red-village'],
     pages['legends-of-venari'],
   ],
+  'Community & Support': [pages['contribute'], pages['policies'], pages['support']],
 }
