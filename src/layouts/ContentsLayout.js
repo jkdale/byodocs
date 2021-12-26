@@ -114,10 +114,10 @@ function useTableOfContents(tableOfContents) {
         setCurrentSection(sortedHeadings[sortedHeadings.length - 1].id)
         return
       }
-      const middle = y + windowHeight / 2
+      const top = y + 120
       let current = sortedHeadings[0].id
       for (let i = 0; i < sortedHeadings.length; i++) {
-        if (middle >= sortedHeadings[i].top) {
+        if (top >= sortedHeadings[i].top) {
           current = sortedHeadings[i].id
         }
       }
@@ -199,7 +199,7 @@ export function ContentsLayout({ children, meta, classes, tableOfContents, secti
         </Link>
       </Footer>
 
-      <div className="fixed z-20 top-[3.8125rem] bottom-0 right-[max(0px,calc(50%-45rem))] w-[19.5rem] py-10 px-8 overflow-y-auto hidden xl:block">
+      <div className="fixed z-20 top-[3.8125rem] bottom-0 right-[max(0px,calc(50%-45rem))] w-[19.5rem] py-10 px-8 overflow-y-auto hidden xl:block scrollbar-none">
         {toc.length > 0 && (
           <TableOfContents tableOfContents={toc} currentSection={currentSection} />
         )}
