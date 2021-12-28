@@ -5,8 +5,10 @@ import { Logo } from '@/components/Logo'
 const footerNav = [
   {
     'Getting Started': documentationNav['Getting Started'],
+    Ecosystem: documentationNav['Ecosystem'],
   },
   {
+    'Community & Support': documentationNav['Community & Support'],
     Community: [
       { title: 'GitHub', href: 'https://github.com/0xdevelopereth/byodocs' },
       { title: 'Discord', href: 'https://discord.gg/dbMUkR8dY2' },
