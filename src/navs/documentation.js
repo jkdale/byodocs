@@ -6,7 +6,7 @@ const pages = createPageList(
 )
 
 export const documentationNav = {
-  'Getting Started': [pages['welcome'], pages['faq']],
+  'Getting Started': [pages['welcome'], pages['introduction'], pages['faq']],
   Ecosystem: [
     pages['byopills'],
     pages['apostles'],
@@ -23,5 +23,10 @@ export const documentationNav = {
     pages['the-red-village'],
     pages['legends-of-venari'],
   ],
-  'Community & Support': [pages['contribute'], pages['policies'], pages['support']],
+  'Community & Support': [
+    pages['contributors'],
+    pages['contribute'],
+    pages['policies'],
+    pages['support'],
+  ],
 }
