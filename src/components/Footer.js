@@ -52,7 +52,7 @@ export function Footer({ children, previous, next }) {
         <div className="mb-6 sm:mb-0 sm:flex">
           <Link href="https://www.byopills.com/" target="_blank">
             <a className="text-gray-400 hover:text-gray-100">
-              Copyright &copy; {new Date().getFullYear()} TBA
+              Copyright &copy; {new Date().getFullYear()} BYO Studios
             </a>
           </Link>
           <p className="sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-500/30">
