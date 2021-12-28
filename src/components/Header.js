@@ -8,17 +8,19 @@ import clsx from 'clsx'
 
 function Featured() {
   return (
-    <Link href="/">
-      <a className="ml-3 text-xs leading-5 text-orange-600 bg-orange-400/10 rounded-full py-1 px-3 hidden xl:flex items-center hover:bg-orange-400/20">
-        <strong className="font-semibold">Major announcement link</strong>
+    <Link href="/docs/contribute">
+      <a className="ml-3 text-xs leading-5 text-teal-400 bg-teal-600/20 rounded-full py-1 px-3 hidden xl:flex items-center hover:bg-teal-600/40">
+        <strong className="font-semibold">We are recruiting!</strong>
         <svg width="2" height="2" fill="currentColor" aria-hidden="true" className="ml-2">
           <circle cx="1" cy="1" r="1" />
         </svg>
-        <span className="ml-2">Descriptive message</span>
+        <span className="ml-2">
+          Help improve BYODocs as a developer, author, infographics designer, reviewer, and more
+        </span>
         <svg
           width="3"
           height="6"
-          className="ml-3 overflow-visible text-orange-300"
+          className="ml-3 overflow-visible text-teal-400"
           aria-hidden="true"
         >
           <path
