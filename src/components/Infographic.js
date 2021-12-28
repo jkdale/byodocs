@@ -9,7 +9,7 @@ export function Infographic(props) {
     <Fragment>
       <div className="transition duration-100 ease-out hover:ease-in border-solid border-2 border-gray-700 hover:border-orange-400">
         <MapInteractionCSS showControls="true" maxScale="5" minScale="1">
-          <img alt={description} src={require(`../img/${src}`).default} />
+          <img alt={description} src={require(`../img${src}`).default} />
         </MapInteractionCSS>
       </div>
       {description && (
