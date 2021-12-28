@@ -39,3 +39,9 @@ export const invision = {
   twitter: 'InvisionCrypto',
   avatar: require('@/img/avatars/invisioncrypto.jpg').default,
 }
+
+export const m3rookie = {
+  name: 'M3Rookie',
+  twitter: 'M3_Rookie',
+  avatar: require('@/img/avatars/m3rookie.jpg').default,
+}
