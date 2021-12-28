@@ -22,7 +22,7 @@ export function Infographic(props) {
           Credit:{' '}
           <a
             className="ml-2"
-            href={`https://twitter.com/` + credit}
+            href={`https://twitter.com/@` + credit}
             target="_blank"
             rel="noreferrer"
           >
