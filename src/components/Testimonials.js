@@ -8,10 +8,29 @@ let testimonials = [
   [
     {
       content:
+        "I'm going to let you all in on a little secret...🤫🤫 @BYOPills is the most slept on project in the entire space. Team with grand plans that has followed through 100% AND outperformed every step. Check the app & avatar. This team will be comparable to @BoredApeYC.",
+      url: 'https://twitter.com/linuscaldwell5/status/1434924746827837444?s=21',
+      author: {
+        name: 'Mr. Linus Caldwell',
+        handle: '@LinusCaldwell5',
+        avatar: require('@/img/avatars/linus.jpg').default,
+      },
+    },
+    {
+      content: 'Still my favorite promo video.',
+      url: 'https://twitter.com/JeffKCollins/status/1474134353684807688',
+      author: {
+        name: 'Jeff Collins',
+        handle: '@JeffKCollins',
+        avatar: require('@/img/avatars/jeff-collins.jpg').default,
+      },
+    },
+    {
+      content:
         'The BYOPill community is way too strong - you guys are amazing ❤️ The land sale is a huge win for all of us as we look to continuously develop the vision. Holders will always be rewarded and the community will always be our number 1 priority.\nThat’s what makes web3 great.',
       url: 'https://twitter.com/P_etherH/status/1471678341354770436',
       author: {
-        name: 'PΞTΞR',
+        name: 'PΞTΞR (BYO Founder)',
         handle: '@P_etherH',
         avatar: require('@/img/avatars/petherh.jpg').default,
       },
@@ -44,9 +63,29 @@ let testimonials = [
         avatar: require('@/img/avatars/kebz.png').default,
       },
     },
+    {
+      content:
+        'How to install the right mindset to understand the @BYOPills project. Everything you need to know about the project before going into 2022. A thread.',
+      url: 'https://twitter.com/f0xboss/status/1475617344449925121',
+      author: {
+        name: 'f0xboss',
+        handle: '@f0xboss',
+        avatar: require('@/img/avatars/f0xboss.jpg').default,
+      },
+    },
   ],
   // Column 2
   [
+    {
+      content:
+        '@BYOPills is up 27% with the pills sitting at 0.42, not to mention the other 800 parts of their universe that all have non-insignificant floor prices. The pill that keeps on giving.',
+      url: 'https://twitter.com/Zeneca_33/status/1472726812824412160',
+      author: {
+        name: `Zeneca_33`,
+        handle: '@Zeneca_33',
+        avatar: require('@/img/avatars/zeneca-33.jpg').default,
+      },
+    },
     {
       content: 'Its safe to say @BYOPills is making moves 👀',
       url: 'https://twitter.com/thedropnft/status/1472331008762519552',
@@ -86,9 +125,49 @@ let testimonials = [
         avatar: require('@/img/avatars/wtc.jpg').default,
       },
     },
+    {
+      content:
+        'Bullish on @BYOPills, has got to be one of the least talked about and underrated projects in all of NFT’s',
+      url: 'https://twitter.com/UAhorny/status/1475262671683407873',
+      author: {
+        name: 'defididdy.eth',
+        handle: '@UAhorny',
+        avatar: require('@/img/avatars/defididdy.jpg').default,
+      },
+    },
+    {
+      content:
+        'Ok I just treated myself to a little Christmas gift and got another @BYOPills #BYOLAND At .3ish I feel like this has a lot of potential to grow. I really think these easily go over 1 ETH so I am gonna most likely grab a few more soon.',
+      url: 'https://twitter.com/TheeHustleHouse/status/1474825690121785344',
+      author: {
+        name: 'BaronVonHustle.eth',
+        handle: '@TheeHustleHouse',
+        avatar: require('@/img/avatars/baronvonhustle.jpg').default,
+      },
+    },
   ],
   // Column 3
   [
+    {
+      content:
+        'Well @joerogan just learned about @BYOPills #Metaverse is about to take off. Give it a few more months and you will see!',
+      url: 'https://twitter.com/cagyjan1/status/1475164597627854848',
+      author: {
+        name: 'CAGY',
+        handle: '@cagyjan1',
+        avatar: require('@/img/avatars/cagy.jpg').default,
+      },
+    },
+    {
+      content:
+        "@BYOPills BYOLAND 💊🌋. IMO this will be one of the metaverses with most valuable land. Each facet of the BYOVERSE works with one another. The land produces resources to be utilized in the metaverse 💰. Don't sleep on this 🧠",
+      url: 'https://twitter.com/chirocrypto/status/1474087694057754625',
+      author: {
+        name: 'chirocrypto',
+        handle: '@chirocrypto',
+        avatar: require('@/img/avatars/chirocrypto.jpg').default,
+      },
+    },
     {
       content:
         "A montage/tiktok style video of this year's development at the @BYOPills project. What the team manages to pull off is insane, and they've said 'the best is yet to come!!'",
@@ -125,6 +204,16 @@ let testimonials = [
         name: 'f//pdrago.eth',
         handle: '@flipdrago',
         avatar: require('@/img/avatars/flipdrago.jpg').default,
+      },
+    },
+    {
+      content:
+        'When you get your @BYOPills #BYOVERSE meta drop on Xmas Eve with these zones... Amazonia, Astroverse, Bone Valley and Radioactive Swamp',
+      url: 'https://twitter.com/jbuckb/status/1474401992449699840',
+      author: {
+        name: 'Jbuckb.eth',
+        handle: '@jbuckb',
+        avatar: require('@/img/avatars/jbuckb.jpg').default,
       },
     },
   ],
