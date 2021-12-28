@@ -121,7 +121,10 @@ export default function Home() {
         <Header />
         <section className="text-center px-8">
           <h2 className="text-4xl text-bold font-extrabold sm:text-5xl">
-            The Vision <span className="font-normal">👁️</span>
+            The Vision{' '}
+            <span role="img" aria-label="Eye emoji" className="font-normal">
+              👁️
+            </span>
           </h2>
           <figure>
             <blockquote>
