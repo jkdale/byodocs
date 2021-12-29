@@ -10,9 +10,9 @@ export function Player(props) {
         'pb-8': external,
       })}
     >
-      <div className={clsx(className)}>
+      <div className={clsx('w-full', className)}>
         <ReactPlayer
-          className={clsx('', {
+          className={clsx({
             'mt-[-2rem]': noSpacing,
           })}
           loop
