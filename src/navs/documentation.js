@@ -19,7 +19,7 @@ export const documentationNav = {
   Partnership: [
     pages['wonderquest-and-decentraland'],
     pages['galaxy-fight-club'],
-    pages['chibi-legends'],
+    pages['chibi-clash'],
     pages['the-red-village'],
     pages['legends-of-venari'],
   ],
