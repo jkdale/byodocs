@@ -4,7 +4,7 @@
 export const developer = {
   name: 'DΞVELOPER',
   twitter: '0xDeveloperEth',
-  avatar: require('@/img/avatars/0xdeveloper.jpg').default,
+  avatar: require('@/img/avatars/0xdeveloper.png').default,
 }
 
 /**
