@@ -15,6 +15,7 @@ export const documentationNav = {
     pages['byovape'],
     pages['byocraft'],
     pages['tryp'],
+    pages['byowear'],
   ],
   Partnership: [
     pages['wonderquest-and-decentraland'],
