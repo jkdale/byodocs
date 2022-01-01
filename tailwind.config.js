@@ -150,6 +150,12 @@ module.exports = {
               color: theme('colors.gray.100'),
               fontWeight: theme('fontWeight.semibold'),
             },
+            blockquote: {
+              borderLeftColor: theme('colors.orange.400'),
+            },
+            'blockquote p': {
+              color: theme('colors.orange.400'),
+            },
             'a strong': {
               color: 'inherit',
               fontWeight: 'inherit',
