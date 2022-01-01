@@ -23,6 +23,7 @@ export const documentationNav = {
     pages['chibi-clash'],
     pages['the-red-village'],
     pages['legends-of-venari'],
+    pages['sciart-lab'],
   ],
   'Community & Support': [
     pages['contributors'],
