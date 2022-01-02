@@ -178,7 +178,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                   <Logo className="w-auto h-7" />
                 </a>
               </Link>
-              <Featured />
+              {/* <Featured /> */}
               <nav className="hidden lg:block ml-auto">
                 <ul className="flex space-x-8 text-sm leading-6 font-semibold text-gray-400">
                   <NavItems />
