@@ -48,7 +48,7 @@ function Header() {
         </div>
         <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
           <h1 className="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-wide text-center">
-            Everything about the BYOVerse. <br />
+            Everything about the BYOVERSE. <br />
             Powered by BYOCommunity.
           </h1>
           <p className="mt-6 text-lg text-gray-400 text-center max-w-3xl mx-auto">
