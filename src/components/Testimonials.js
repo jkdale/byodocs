@@ -237,7 +237,7 @@ function Testimonial({ author, content, url, expanded }) {
         </blockquote>
         <figcaption className="flex items-center space-x-4">
           <img
-            src={author.avatar}
+            src={author.profile_image_url}
             alt=""
             className="flex-none w-14 h-14 rounded-full object-cover"
             loading="lazy"

@@ -1,41 +1,54 @@
 ---
 title: Contributors
-description: Team and community contributors behind BYODocs
+description: BYOCommunity behind BYODocs
 ---
 
-import { developer, f0xboss, seba, fourkthreemusic, invision, m3rookie } from "@/authors/authorList"
+import { users, roles } from "@/users"
 import { TeamGrid } from "@/components/TeamGrid"
 
-## BYODocs Team
-
-### Administrators
-
-<TeamGrid team={[developer]} />
-
-### Infographic Designers
-
-<TeamGrid team={[f0xboss, seba]} />
+## Maintenance
 
 ### Developers
 
-We are looking for Developers! [Apply here](/docs/contribute/).
+<TeamGrid team={users} role={roles.developer} />
 
-<TeamGrid team={[fourkthreemusic]} />
+---
 
-### Authors
+## Design
 
-We are looking for Authors! [Apply here](/docs/contribute/).
+### UI/UX
 
-<TeamGrid team={[invision, m3rookie]} />
+<TeamGrid team={users} role={roles.ui} />
+
+### Infographics
+
+<TeamGrid team={users} role={roles.infographic} />
+
+
+---
+
+## Content & Publication
 
 ### Reviewers
 
-We are looking for Authors! [Apply here](/docs/contribute/).
+<TeamGrid team={users} role={roles.reviewer} />
 
-### UI/UX Designers
+### Lore Authors
 
-We are looking for UI/UX Designers! [Apply here](/docs/contribute/).
+<TeamGrid team={users} role={roles.lore} />
+
+### Authors
+
+<TeamGrid team={users} role={roles.author} />
 
 ### Translators
 
-We are looking for Translators! [Apply here](/docs/contribute/).
+<TeamGrid team={users} role={roles.translator} />
+
+---
+
+## Video & Sound
+
+### Podcasts
+
+<TeamGrid team={users} role={roles.podcast} />

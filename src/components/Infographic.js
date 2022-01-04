@@ -2,8 +2,13 @@ import { Fragment } from 'react'
 import { MapInteractionCSS } from 'react-map-interaction'
 import clsx from 'clsx'
 
+import { users } from '@/users'
+import { filterValue } from '@/utils/filterValue'
+
 export function Infographic(props) {
   const { src, description, credit } = props
+
+  const creditUser = filterValue(users, 'name', credit)
 
   return (
     <Fragment>
@@ -17,16 +22,16 @@ export function Infographic(props) {
           Description: {description}.
         </p>
       )}
-      {credit && (
+      {creditUser && (
         <p className="flex justify-center text-sm text-gray-500 mt-2 mb-0">
           Credit:{' '}
           <a
             className="ml-2"
-            href={`https://twitter.com/@` + credit}
+            href={`https://twitter.com/` + creditUser.username}
             target="_blank"
             rel="noreferrer"
           >
-            {credit}
+            {creditUser.name}
           </a>
           .
         </p>
