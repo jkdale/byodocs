@@ -65,10 +65,12 @@ export function TrypCalculator() {
         {data.tokenomics.length ? (
           <Fragment>
             <div className="my-12 p-4 md:p-8 lg:p-8 bg-space-800">
-              <div className="grid md:grid-cols-2 gap-4">
-                <GridTitle title="ENS" />
-                {data.ens && <GridField content={data.ens} />}
-              </div>
+              {data.ens.includes('.eth') && (
+                <div className="grid md:grid-cols-2 gap-4">
+                  <GridTitle title="ENS" />
+                  {<GridField content={data.ens} />}
+                </div>
+              )}
               <div className="grid md:grid-cols-2 gap-4 first-of-type:mt-0 mt-6">
                 <GridTitle title="Address" />
                 {data.addr && <GridField content={maskAddress(data.addr)} />}
