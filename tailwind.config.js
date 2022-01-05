@@ -184,19 +184,20 @@ module.exports = {
               minWidth: '100%',
             },
             table: {
-              fontSize: theme('fontSize.sm')[0],
+              fontSize: theme('fontSize.lg'),
               lineHeight: theme('fontSize.sm')[1].lineHeight,
             },
             thead: {
-              color: theme('colors.gray.700'),
-              borderBottomColor: theme('colors.gray.200'),
+              color: theme('colors.orange.400'),
+              borderBottomColor: theme('colors.orange.400'),
             },
             'thead th': {
+              color: theme('colors.orange.400'),
               paddingTop: 0,
               fontWeight: theme('fontWeight.semibold'),
             },
             'tbody tr': {
-              borderBottomColor: theme('colors.gray.100'),
+              borderBottomColor: theme('colors.gray.500'),
             },
             'tbody tr:last-child': {
               borderBottomWidth: '1px',
