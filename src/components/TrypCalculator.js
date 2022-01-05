@@ -1,5 +1,6 @@
 import { Fragment, useState, useEffect } from 'react'
 import axios from 'axios'
+import ethereumAddress from 'ethereum-address'
 
 export function TrypCalculator() {
   const [address, setAddress] = useState('')
@@ -65,7 +66,7 @@ export function TrypCalculator() {
         {data.tokenomics.length ? (
           <Fragment>
             <div className="my-12 p-4 md:p-8 lg:p-8 bg-space-800">
-              {data.ens.includes('.eth') && (
+              {ethereumAddress.isAddress(data.ens) && (
                 <div className="grid md:grid-cols-2 gap-4">
                   <GridTitle title="ENS" />
                   {<GridField content={data.ens} />}
