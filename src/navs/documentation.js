@@ -14,9 +14,9 @@ export const documentationNav = {
     pages['byokey'],
     pages['byovape'],
     pages['byocraft'],
-    pages['tryp'],
     pages['byowear'],
   ],
+  Tokenomics: [pages['tryp'], pages['tryp-calculator']],
   Partnership: [
     pages['wonderquest-and-decentraland'],
     pages['galaxy-fight-club'],
