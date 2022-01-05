@@ -1,0 +1,52 @@
+---
+title: $TRYP Calculator
+description: Analyze your potential earnings with the $TRYP calculator
+---
+
+import { apostles, byoland } from "@/tokens"
+import { apostlesBoost, byolandBoost } from "@/tokens/trypMultiplier"
+
+import { TrypCalculator } from "@/components/TrypCalculator"
+import { TrypMultiplier } from "@/components/TrypMultiplier"
+
+## Calculator
+### Potential $TRYP Earnings
+
+<TrypCalculator />
+
+---
+
+## $TRYP Amplifier
+
+### Apostles
+It requires **1 [BYOPill](/docs/byopills)** to stake an Apostle, which generates [$TRYP](/docs/tryp).
+
+Can apply a maximum of 3 BYOPills to increase $TRYP generation.
+
+<table className="table-auto">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>#1 Pill</th>
+      <th>#2 Pills</th>
+      <th>#3 Pills</th>
+    </tr>
+  </thead>
+  <TrypMultiplier tokens={apostles} multiplier={apostlesBoost} />
+</table>
+
+### BYOLand
+You can generate [$TRYP](/docs/tryp) from a [BYOLand](/docs/byoland) by default. A pill is not required for staking.
+
+Can apply a maximum of 1 BYOPill to increase $TRYP generation.
+
+<table className="table-auto">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Base</th>
+      <th>#1 Pill</th>
+    </tr>
+  </thead>
+  <TrypMultiplier tokens={byoland} multiplier={byolandBoost} />
+</table>
