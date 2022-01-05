@@ -244,7 +244,7 @@ export function Header({ hasNav = false, navIsOpen, onNavToggle, title, section 
                       </svg>
                     </li>
                   )}
-                  <li className="font-semibold text-gray-900 truncate">{title}</li>
+                  <li className="font-semibold text-orange-500 truncate">{title}</li>
                 </ol>
               )}
             </div>
