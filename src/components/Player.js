@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 import clsx from 'clsx'
 
 export function Player(props) {
-  const { src, noSpacing = false, external = false, className, muted = false } = props
+  const { src, addSpacing = false, external = false, className, muted = false } = props
 
   return (
     <div
@@ -13,13 +13,13 @@ export function Player(props) {
       <div className={clsx('w-full', className)}>
         <ReactPlayer
           className={clsx({
-            'mt-[-2rem]': noSpacing,
+            'my-4': addSpacing,
           })}
           loop
           controls
           url={external ? src : require(`@/video/${src}`).default}
           width="100%"
-          height={external ? '423px' : '100%'}
+          height={external ? '423px' : 'auto'}
           volume={muted ? '0' : '0.3'}
         />
       </div>
