@@ -18,6 +18,14 @@ export const users = [
     roles: [roles.developer],
   },
   {
+    id: '9840398343212982044',
+    name: 'Oconio',
+    profile_image_url:
+      'https://pbs.twimg.com/profile_images/1438877657865854981/0qZ3AUKx_400x400.jpg',
+    username: 'jkdaleMU',
+    roles: [roles.developer],
+  },
+  {
     id: '454413549',
     name: 'Alan P',
     profile_image_url:
@@ -197,7 +205,7 @@ export const users = [
     id: '184243652',
     name: 'rahuliojones.eth 💊🪄',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1476561688904323073/j5ShHJ7W_normal.png',
+      'https://pbs.twimg.com/profile_images/1478190540705386496/craJe4qZ_400x400.jpg',
     username: 'rahuliojones',
     roles: [roles.author],
   },
@@ -261,7 +269,7 @@ export const users = [
     id: '1429066616927629316',
     name: 'galacticwhorls.eth',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1458843501576208395/pzofpMC9_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1478482065230385152/YGjWelvd_400x400.jpg',
     username: 'MandowhorianNFT',
     roles: [roles.ui, roles.reviewer, roles.author],
   },
