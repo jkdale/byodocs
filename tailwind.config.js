@@ -164,6 +164,9 @@ module.exports = {
               fontWeight: theme('fontWeight.medium'),
               fontVariantLigatures: 'none',
             },
+            video: {
+              margin: 0,
+            },
             pre: {
               color: theme('colors.gray.50'),
               borderRadius: theme('borderRadius.xl'),
