@@ -240,7 +240,7 @@ function TopLevelNav() {
       >
         Documentation
       </TopLevelLink>
-      <TopLevelLink
+      {/* <TopLevelLink
         href="/docs/welcome"
         className="mb-4"
         shadow="group-hover:bg-orange-900"
@@ -260,8 +260,8 @@ function TopLevelNav() {
         }
       >
         Promo Videos
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="/docs/welcome"
         isActive={pathname === '/resources'}
         className="mb-4"
@@ -284,7 +284,7 @@ function TopLevelNav() {
         }
       >
         Resources
-      </TopLevelLink>
+      </TopLevelLink> */}
       <TopLevelLink
         href="https://discord.gg/dbMUkR8dY2"
         className="mb-8"
