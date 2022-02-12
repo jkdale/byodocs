@@ -5,7 +5,7 @@ export const users = [
     id: '1447630402131304450',
     name: 'DΞVELOPER',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1477736012600201216/GNzA_TnK_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1490731092378271750/y3I2pMAO_400x400.jpg',
     username: '0xDeveloperEth',
     roles: [roles.developer],
   },
@@ -37,13 +37,13 @@ export const users = [
     id: '1372165892109447172',
     name: 'Ra',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1475915254043402249/ExmMS82u_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1492191634397741059/HD7OmwOc_400x400.jpg',
     username: 'kaolinRa',
     roles: [roles.ui],
   },
   {
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1462532342916997134/dlnBAU9h_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1489574256023425026/trmU6H88_400x400.jpg',
     name: 'f0xboss',
     id: '1462532138260119562',
     username: 'f0xboss',
@@ -51,7 +51,7 @@ export const users = [
   },
   {
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1456640531723919360/mk6uE-Dt_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1482181764198109187/lk3WnLMc_400x400.jpg',
     name: '0xSeba.crypto (💊,💊)',
     id: '1356317379953909760',
     username: '0xSeba',
@@ -61,7 +61,7 @@ export const users = [
     id: '1078128006',
     name: 'Crispysix50',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1454210857882292229/ZZpF7aCi_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1488031264779214848/B5SoIazY_400x400.jpg',
     username: 'crispysix50',
     roles: [roles.infographic],
   },
@@ -85,7 +85,7 @@ export const users = [
     id: '945201019700547584',
     name: 'DuckConfetti',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1432025530677661697/-H1VaEG8_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1480351197621936130/RcqrEHXj_400x400.jpg',
     username: 'DuckConfetti',
     roles: [roles.author],
   },
@@ -101,7 +101,7 @@ export const users = [
     id: '63277630',
     name: 'SpiritualHurricane.eth',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1476335164775026691/a5SlUO54_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1487922528970412034/BY187M3n_400x400.jpg',
     username: 'HurricaneHof',
     roles: [roles.author],
   },
@@ -133,7 +133,7 @@ export const users = [
     id: '1450864850389770242',
     name: 'straightforward.eth',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1450865016312188932/oNq7LQdp_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1488976383007068162/7XzW9Cj7_400x400.jpg',
     username: 'SF_ETH',
     roles: [roles.author],
   },
@@ -141,7 +141,7 @@ export const users = [
     id: '1410317854520614916',
     name: 'JustBeNice👁💊👽',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1455468918164836356/xsWj2IwD_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1489705912029921284/7cNi7GIQ_400x400.jpg',
     username: 'ZombieAlienKids',
     roles: [roles.author],
   },
@@ -149,7 +149,7 @@ export const users = [
     id: '27496484',
     name: 'byoldme.eth 😈',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1471581504375508993/RvZWEI6R_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1486788737585627137/u9zGHj4B_400x400.jpg',
     username: 'kindlerox',
     roles: [roles.author],
   },
@@ -165,7 +165,7 @@ export const users = [
     id: '137219280',
     name: 'Andrew Brotherton',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1369432295862661131/OEHrZt4c_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1484541268453740556/J4w8C_2-_400x400.jpg',
     username: 'brothertona',
     roles: [roles.author],
   },
@@ -181,7 +181,7 @@ export const users = [
     id: '2361568152',
     name: 'kiddkrypto.x 💊',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1473960434831015939/xbe6O4DV_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1486916613953626114/C_WTW_R5_400x400.jpg',
     username: 'kiddkrypto',
     roles: [roles.author, roles.ui, roles.infographic],
   },
@@ -205,7 +205,7 @@ export const users = [
     id: '184243652',
     name: 'rahuliojones.eth 💊🪄',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1478190540705386496/craJe4qZ_400x400.jpg',
+      'https://pbs.twimg.com/profile_images/1480323041812963328/F5HFu0IQ_400x400.jpg',
     username: 'rahuliojones',
     roles: [roles.author],
   },
@@ -261,7 +261,7 @@ export const users = [
     id: '948073681049100288',
     name: 'itsVINCΞ.eth',
     profile_image_url:
-      'https://pbs.twimg.com/profile_images/1465757292083613699/XGtsP8kq_normal.jpg',
+      'https://pbs.twimg.com/profile_images/1490814052045508609/KRRYqQHJ_400x400.jpg',
     username: 'ItsVincedotEth',
     roles: [roles.reviewer],
   },
